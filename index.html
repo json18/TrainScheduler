@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang = "en-us">
+    <head> 
+        <meta charset="UTF-8">
+        <title> Train Scheduler </title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="jumbotron">
+                <h1> Train Schedule</h1>
+            </div>
+        
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                <h3 class="panel-title"> Current Train Schedule</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="container">
+                        <div class="table-responsive">
+                                <table class="table">
+                                <thead>
+                                        <tr>
+                                        <th> Train Name</th>
+                                        <th> Destination </th>
+                                        <th> Frequency (min) </th>
+                                        <th> Next Arrival </th>
+                                        <th> Minutes Away </th>
+                                        </tr>
+                                        </thead>
+                                    <tr>
+                                        <td>Argentina</td>
+                                        <td>Spanish (official), English, Italian, German, French</td>
+                                        <td>41,803,125</td>
+                                        <td>31.3</td>
+                                        <td>2,780,387</td>
+                                    </tr>
+                                </table>
+
+            </div>
+            </div>
+            </div>
+            </div>
+            
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                <h3 class="panel-title"> Add Train</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="input-group">
+                        <label for="input-group">Train Name</label>
+                        <input type="text" class="form-control" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="input-group">
+                            <label for="input-group"> Destination </label>
+                            <input type="text" class="form-control" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="input-group">
+                            <label for="input-group">First Train Time (military time)</label>
+                            <input type="text" class="form-control" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="input-group">
+                            <label for="input-group">Frequency (min)</label>
+                            <input type="text" class="form-control" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div> 
+                         <p><a class="btn btn-primary btn-sm" href="#" role="button">Submit</a></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>  
+
+    </body>
+
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</html>
